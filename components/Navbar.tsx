@@ -25,7 +25,7 @@ export default function Navbar() {
       css={{ backdropFilter: "blur(10px)" }}
       zIndex={2}
     >
-      <Container maxW={"container.md"} p="10px">
+      <Container maxW={"container.sm"} p="10px">
         <Flex justify="space-between" height="30px" align="center">
           <Stack direction="row" align="baseline" spacing="40px">
             {/* Hero */}
