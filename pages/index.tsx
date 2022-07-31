@@ -31,8 +31,12 @@ export default function Home() {
 
       {/* Meta details */}
       <Transition lag={0.5}>
-        <Flex direction="row" justify="space-between">
-          <Box mb="50px">
+        <Flex
+          direction={["column", "column", "row"]}
+          justify="space-between"
+          mb="30px"
+        >
+          <Box mb="20px">
             <Heading fontFamily="Ubuntu" fontWeight="700" fontSize="48px">
               Leon Wu
             </Heading>
